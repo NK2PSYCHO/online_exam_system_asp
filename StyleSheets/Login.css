@@ -1,0 +1,60 @@
+﻿/*Body Contains The Information Of margin So That The topbar and bottombar can be set successfully */
+body {
+    margin:0;
+}
+
+/*To Display bar type design on the top of the page*/
+.topbar {
+    background-color: black;
+    overflow: auto;
+    position: relative;
+    width: 100%;
+}
+
+/*To Display bar type design on the bottom of the page*/
+.bottombar{
+    background-color: black;
+    overflow: auto;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/*To Appropriately Design The Labels In The topbar as well as bottombar Division*/
+.labels {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color:red;
+}
+
+/*To Appropriately Design The Button(s) To Be Displayed On The Page*/
+.buttons {
+    background-color: green;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 15%;
+}
+
+/*To Appropriately Design The Button(s) When It Is Hovered Over*/
+.buttons:hover {
+    background-color:red;
+}
+
+/*To Appropriately Design The TextBox(s) To Be Displayed On The Page*/
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+

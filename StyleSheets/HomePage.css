@@ -1,0 +1,126 @@
+﻿/*Body Contains The Information Of margin So That The topbar and bottombar can be set successfully */
+body {
+    margin:0;
+}
+
+/*To Display bar type design on the top of the page*/
+.topbar {
+    background-color: black;
+    overflow: hidden;
+    width: 100%;
+    top: 0px;
+}
+
+/*To Display bar type design on the bottom of the page*/
+.bottombar {
+    background-color: black;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/*To Appropriately Design The Labels In The topbar as well as bottombar Division*/
+.barlabels {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: red;
+}
+
+/*To Appropriately Design The Labels In The main body Division*/
+.displabel {
+    padding: 20px 25px;
+}
+
+/*To Appropriately Design The Button(s) To Be Displayed On The Page*/
+.buttons {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 14px 20px;
+    margin: 8px 0;
+    width:15%;
+    right:50px;
+    bottom:100px;
+    position:fixed;
+}
+
+/*To Appropriately Design The Button(s) When It Is Hovered Over*/
+.buttons:hover {
+    background-color: red;
+}
+
+
+/*To Appropriately Design The DropDownList Which Displays The Available Page Accessible*/
+.dropdown {
+    float: right;
+    overflow: hidden;
+}
+
+/*To Appropriately Design The button Which will act As DropDown When Hovered Over */
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: green;
+    font-family: inherit; 
+}
+
+/*To Appropriately Design The Content Of The DropDown */
+.dropdown-content {
+    display:none;
+    position: absolute;
+    z-index: 1;
+}
+
+/*To Appropriately Design The links and Button of topbar when hovered Over*/
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+/*To Appropriately Design The links Of The DropDown*/
+.dropdown-content a {
+    float: none;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    display: block;
+    background-color: green;
+}
+
+/*To Appropriately Design The links Of The DropDown when hovered Over*/
+.dropdown-content a:hover {
+    display: block;
+    background-color: red;
+}
+
+/*To Appropriately Design what Happens When Drop down Button is Hovered Over and The links of Dropdown*/
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*Helps In Dividing the Page into two Halves*/
+.split {
+    width: 50%;
+    position:fixed;
+    overflow:hidden;
+}
+
+/*For The Division Which Will Contain The Left Part Of The Page */
+.left {
+    left: 0;
+    padding-top:100px;
+}
+
+/*For The Division Which Will Contain The Right Part Of The Page */
+.right {
+    right: 0;
+    padding-top: 100px;
+}

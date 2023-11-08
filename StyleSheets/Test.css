@@ -1,0 +1,91 @@
+﻿/*Body Contains The Information Of margin So That The topbar and bottombar can be set successfully */
+body {
+    margin:0;
+}
+
+/*To Display bar type design on the top of the page*/
+.topbar {
+    background-color: black;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+}
+
+/*To Display bar type design on the bottom of the page*/
+.bottombar {
+    background-color: black;
+    overflow: auto;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/*To Appropriately Design The Labels In The topbar as well as bottombar Division*/
+.labels {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: red;
+}
+
+/*To Appropriately Design The Next And Submit Button To Be Displayed On The Page*/
+.buttonnext {
+    background-color: green;
+    border: none;
+    padding: 14px 16px;
+    right: 50px;
+    bottom: 100px;
+    position:fixed;
+    color:white;
+}
+
+/*To Appropriately Design The Previous Button To Be Displayed On The Page*/
+.buttonprev {
+    background-color: green;
+    border: none;
+    padding: 14px 16px;
+    right: 170px;
+    bottom: 100px;
+    position: fixed;
+    color:white;
+}
+
+/*To Appropriately Design The Button(s) When It Is Hovered Over*/
+.buttonnext:hover, .buttonprev:hover {
+    background-color: red;
+}
+
+/*Helps In Dividing the Page into two Halves*/
+.split {
+    width: 50%;
+    position: fixed;
+    overflow: hidden;
+}
+
+/*For The Division Which Will Contain The Left Part Of The Page */
+.left {
+    left: 0;
+    padding-top: 100px;
+}
+
+/*For The Division Which Will Contain The Right Part Of The Page */
+.right {
+    right: 0;
+    padding-top: 100px;
+}
+
+/*To Appropriately Design The Label which Contains The Question*/
+.label {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: pre-line;
+}
+
+
+
+
+
+
